@@ -1,0 +1,36 @@
+*{box-sizing: border-box;}
+
+.content_wrapper{
+    position:absolute;
+    left:0;
+    top:0;
+    margin: 0 auto;
+    background-color: lightsteelblue;
+    width:100%;
+    height:1000px;
+    padding:0 auto;
+}
+
+#img_placeholder{
+    position:relative;
+    width:200px;
+    height:200px;
+    top:50px;
+    border: 2px solid #ffffff;
+    border-radius:50%;
+    margin:auto;
+    overflow: hidden;
+}
+    #img_placeholder img{
+        width:200px;
+        height:200px;
+    }
+h2{
+    position:relative;
+    padding-top:50px;
+    text-align:center;
+    color:#ffffff;    
+}
+hr{
+    color:#ffffff;
+}
