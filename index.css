@@ -37,11 +37,10 @@ h2{
 .menu{
     position:relative;
     width:250px;
-    height:20px;
+    height:25px;
     margin:auto;
     text-align:center;
-   /* border-top:1px solid #ffffff;
-    border-bottom:1px solid #ffffff;*/
+    
     list-style-type: none;
     padding:0px;
 }
@@ -49,18 +48,18 @@ h2{
     position:relative;
     display:inline-block;
     width:120px;
-    height:18px;
+    height:23px;
     top:-1px;
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-family:Georgia, Verdana, Tahoma, sans-serif;
     font-size:0.9em;
-    font-weight:bold;
     text-decoration: none;
     text-align:center;
     color:#ffffff; 
 }
     .menu li:hover{
         cursor: pointer;
-       /* background-color: #f9f9f9;*/
-       border-bottom:3px solid #ffffff;
+        font-weight:bold;
+        padding-bottom:3px;
+        border-bottom:3px solid #ffffff;
         color:d3d3d3;
     }
