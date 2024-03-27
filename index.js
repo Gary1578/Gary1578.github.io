@@ -15,10 +15,10 @@ $(document).ready(function(){
                 $("#menu_option_list0").slideUp("slow");
         }
         if($("#menu_option_list"+num+"").is(":visible")){
-            $(this).slideUp("slow");
+            $("#menu_option_list"+num+"").slideUp("slow");
         }   
         else{
-            $(this).slideDown("slow");
+            $("#menu_option_list"+num+"").slideDown("slow");
         }
     });  
   /*  $("#menu_li_left").bind("click",function(){
