@@ -14,8 +14,12 @@ $(document).ready(function(){
                 $("#menu_option_list1").slideUp("slow");
                 $("#menu_option_list0").slideUp("slow");
         }
-        $("#menu_option_list"+num+"").slideDown("slow");
-
+        if($("#menu_option_list"+num+"").is(":visible")){
+            $(this).slideUp("slow");
+        }   
+        else{
+            $(this).slideDown("slow");
+        }
     });  
   /*  $("#menu_li_left").bind("click",function(){
         if($("#menu_options_left").is(":visible")){
