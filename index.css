@@ -10,6 +10,7 @@
         width:100%;
         height:100%;
         padding:0 auto;
+        user-select:none;
     }
 
     /*page splits heights measured in per cent as using tv, will change
@@ -20,6 +21,7 @@
             width:100%;
             height:48%;
             background: linear-gradient(0deg, rgba(190,193,194,1) 0%, rgba(238,238,249,1) 36%, rgba(199,199,209,1) 100%);     
+            user-select: none;
         }
             #img_placeholder{
                 position:relative;
@@ -30,10 +32,12 @@
                 border-radius:50%;
                 margin:auto;
                 overflow: hidden;
+                user-select: none;
             }
                 #img_placeholder img{
                     width:180px;
                     height:170px;
+                    user-select: none;
                 }
             h2{
                 position:relative;
@@ -43,6 +47,7 @@
                 font-weight:bold;
                 font-size:1.7em;
                 color: #ffffff;    
+                user-select:none;
             }
         .screen_bottom_split{
             position:relative;
@@ -50,6 +55,7 @@
             width:100%;
             height:52%;
             background:rgba(190,193,194,1);
+            user-select: none;
         }
             #menu{
                 position:relative;
@@ -60,6 +66,7 @@
                 text-align:center; 
                 list-style-type: none;
                 padding:0px;
+                user-select: none;
             }
                 #menu li{
                     position:relative;
@@ -72,7 +79,8 @@
                     font-size:.9em;
                     text-decoration: none;
                     padding-top:1px;
-                    color:#ffffff; 
+                    color:#ffffff;
+                    user-select:none; 
                 }
                     #menu li:hover{
                         cursor: pointer;
@@ -86,6 +94,7 @@
                 width:372px;
                 height:100px;  
                 padding:0;
+                user-select: none;
                 
             }
                 #menu_option_list0{
@@ -97,6 +106,7 @@
                     background:rgba(190,193,194,1);
                     border:1px solid white;
                     z-index:1;
+                    user-select:none;
                 }
                 #menu_option_list1{
                     display:none;
@@ -107,6 +117,7 @@
                     background:rgba(190,193,194,1);          
                     border:1px solid white;
                     z-index:1;
+                    user-select:none;
                 }
                 #menu_option_list2{
                     display:none;
@@ -117,6 +128,7 @@
                     background:rgba(190,193,194,1);          
                     border:1px solid white;
                     z-index:1;
+                    user-select:none;
                 }
             p{
                 position:relative;
@@ -127,6 +139,7 @@
                 font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
                 font-size: 1.1em;
                 color: floralwhite;
+                user-select:none;
             }
             
 /*}
