@@ -34,7 +34,7 @@
             top:50px;
             border: 2px solid #ffffff;
             border-radius:50%;
-            margin:auto;
+            margin:0 auto;
             overflow: hidden;
             user-select: none;
         }
@@ -57,7 +57,7 @@
         position:relative;
         margin: 0 auto;
         top:-1px;
-        width:100%;
+        width:480px;
         height:52%;
         background:rgba(190,193,194,1);
         user-select: none;
