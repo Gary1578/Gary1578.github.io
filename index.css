@@ -1,11 +1,16 @@
 *{box-sizing: border-box;}
 
-@media all and (max-width:480px)
+@media all and (max-device-width:480px)
 {
     .content_wrapper{
         background-color:rgb(147, 5, 28);
     }
-
+@media all and (max-device-width:3840px){
+    .content_wrapper{
+        width:3840px;
+        height:100%;
+        
+    }
     /*page splits heights measured in per cent as using tv, will change
         when include media queries */
         .screen_top_split{
@@ -151,5 +156,5 @@
                 color: floralwhite;
                 user-select:none;
             }
-            
+    }            
 }
