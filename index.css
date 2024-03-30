@@ -1,6 +1,6 @@
 *{box-sizing: border-box;}
 
-@media all and (max-width:1024px){
+@media all and (max-width:1520px){
     .content_wrapper{
         position: absolute;
         left:0;
@@ -13,7 +13,7 @@
         background-color: aqua;
     }
 }
-@media all and (min-width: 1025px) and (max-width:3840px)
+@media all and (min-width: 1521px) and (max-width:3840px)
 {
     .content_wrapper{
         position:absolute;
