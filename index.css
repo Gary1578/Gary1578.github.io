@@ -4,22 +4,24 @@
 {
     .content_wrapper{
         position:absolute;
-        width:100%;
-        height:100%;
-        left:0;
-        top:0;
-        
+        width:480px;
+        height:768px;
+        left:0px;
+        top:0px;
+        margin:0 auto;
+        padding:0 auto;
     }
         .screen_top_split{
             position:relative;
             width:480px;
-            height:48%;
+            height:369px;
+            top:0px;
             background: linear-gradient(0deg, rgba(190,193,194,1) 0%, rgba(238,238,249,1) 36%, rgba(199,199,209,1) 100%);     
             user-select: none;
         }
         #git_hub_profile{
             position:relative;
-            left:0px;
+            margin-left:0 auto;
             width:100%;
             height:50px;
             top:50px;
@@ -36,7 +38,7 @@
             }
         #img_placeholder{
             position:relative;
-            left:0px;
+            margin-left:0 auto;
             width:180px;
             height:170px;
             top:50px;
@@ -52,7 +54,7 @@
             }
         h2{
             position:relative;
-            left:0px;
+            margin-left:0 auto;
             padding-top:40px;
             text-align:center;
             font-family:Georgia, Geneva, Tahoma, sans-serif;
@@ -66,7 +68,7 @@
         margin-left:0px;
         top:-1px;
         width:480px;
-        height:52%;
+        height:399px;
         background:rgba(190,193,194,1);
         user-select: none;
     }
@@ -91,9 +93,10 @@
             #menu_option_list2{
                 display:none;
             }
-        p{
+        .screen_bottom_split p{
             position:relative;
-            width:60%;
+            width:90%;
+            margin-left:0 auto;
             height:30%;
             font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
             font-size: 1.1em;
