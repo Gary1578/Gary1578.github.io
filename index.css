@@ -5,7 +5,7 @@
     .content_wrapper{
         position:absolute;
         width:360px;
-        height:800px;
+        height:768px;
         left:0px;
         top:0px;
         margin:0 auto;
@@ -19,6 +19,42 @@
             background: linear-gradient(0deg, rgba(190,193,194,1) 0%, rgba(238,238,249,1) 36%, rgba(199,199,209,1) 100%);     
             user-select: none;
         }
+        #menu{
+            position:absolute;
+            width:50px;
+            height:50px;
+            margin-top:50px;
+            margin-left:50px;
+            border:1px solid #ffffff;
+        }
+            #menu:hover{
+                cursor:pointer;
+                background-color:rgba(190,193,194,1);
+            }
+            #menu li{
+                position:relative;
+                width:46px;
+                height:1px;
+                margin-left:2px;
+                margin-top:15px;
+                border:1px solid #ffffff;
+                
+            }
+                #menu li:hover{
+                    display:none;
+                }   
+        #menu_options{
+            display:none;
+        }
+            #menu_option_list0{
+                display:none;
+            }
+            #menu_option_list1{
+                display:none;
+            }
+            #menu_option_list2{
+                display:none;
+            }
         #git_hub_profile{
             position:relative;
             margin:0 auto;
@@ -55,6 +91,7 @@
         h2{
             position:relative;
             margin:0 auto;
+            top:50px;
             padding-top:40px;
             text-align:center;
             font-family:Georgia, Geneva, Tahoma, sans-serif;
@@ -71,27 +108,7 @@
         background:rgba(190,193,194,1);
         user-select: none;
     }
-        #menu{
-            display:none;
-        }
-            #menu li{
-                display:none;
-            }
-                #menu li:hover{
-                    display:none;
-                }   
-        #menu_options{
-            display:none;
-        }
-            #menu_option_list0{
-                display:none;
-            }
-            #menu_option_list1{
-                display:none;
-            }
-            #menu_option_list2{
-                display:none;
-            }
+        
         .screen_bottom_split p{
             position:relative;
             width:90%;
