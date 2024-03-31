@@ -21,12 +21,12 @@
         }
         #mobile_menu{
             position:absolute;
-            width:50px;
-            height:50px; 
+            width:30px;
+            height:30px; 
             margin-top:20px;
-            margin-left:20px;
-            border:1px solid #ffffff;
-            border-radius:10px;
+            margin-left:310px;
+            /*border:1px solid #ffffff;*/
+            /*border-radius:5px;*/
             user-select:none;
         }
             #mobile_menu:hover{
@@ -36,11 +36,11 @@
             #mobile_menu li{
                 position:relative;
                 display:block;
-                width:30px;
+                width:18px;
                 height:3px;
                 margin:0 auto;
-                margin-top:10px;
-                border-radius:10px;
+                margin-top:5px;
+                border-radius:3px;
                 background-color:#ffffff;
                 text-decoration: none;
                 user-select:none;
