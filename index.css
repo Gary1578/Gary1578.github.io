@@ -124,7 +124,7 @@
             text-align:center;
         }
 }
-@media all and (min-width: 2160px) and (max-width: 3840px){
+@media all and (min-width: 1000px){
     .content_wrapper{
         position:absolute;
         width:100%;
