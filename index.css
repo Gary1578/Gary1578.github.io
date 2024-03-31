@@ -1,6 +1,6 @@
 *{box-sizing: border-box;}
 
-@media all and (max-width: 360px)
+@media all and (max-width: 340px)
 {
     .content_wrapper{
         position:absolute;
@@ -41,7 +41,7 @@
             margin:0 auto;
             width:180px;
             height:170px;
-        
+            top:50px;
             border: 2px solid #ffffff;
             border-radius:50%;
             overflow: hidden;
