@@ -1,11 +1,11 @@
 *{box-sizing: border-box;}
 
-@media all and (max-width: 480px)
+@media all and (max-width: 390px)
 {
     .content_wrapper{
         position:absolute;
-        width:480px;
-        height:768px;
+        width:390px;
+        height:100%;
         left:0px;
         top:0px;
         margin:0 auto;
@@ -13,15 +13,15 @@
     }
         .screen_top_split{
             position:relative;
-            width:480px;
-            height:369px;
+            width:100%;
+            height:48%;
             top:0px;
             background: linear-gradient(0deg, rgba(190,193,194,1) 0%, rgba(238,238,249,1) 36%, rgba(199,199,209,1) 100%);     
             user-select: none;
         }
         #git_hub_profile{
             position:relative;
-            margin-left:0 auto;
+            margin:0 auto;
             width:100%;
             height:50px;
             top:50px;
@@ -38,7 +38,7 @@
             }
         #img_placeholder{
             position:relative;
-            margin-left:0 auto;
+            margin:0 auto;
             width:180px;
             height:170px;
             top:50px;
@@ -54,7 +54,7 @@
             }
         h2{
             position:relative;
-            margin-left:0 auto;
+            margin:0 auto;
             padding-top:40px;
             text-align:center;
             font-family:Georgia, Geneva, Tahoma, sans-serif;
@@ -65,10 +65,9 @@
         }
     .screen_bottom_split{
         position:relative;
-        margin-left:0px;
-        top:-1px;
-        width:480px;
-        height:399px;
+        margin:0 auto;
+        width:100%;
+        height:52%;
         background:rgba(190,193,194,1);
         user-select: none;
     }
@@ -96,12 +95,13 @@
         .screen_bottom_split p{
             position:relative;
             width:90%;
-            margin-left:0 auto;
+            margin:0 auto;
             height:30%;
             font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
             font-size: 1.1em;
             color: floralwhite;
             user-select:none;
+            text-align:center;
         }
 }
 @media all and (min-width: 2160px) and (max-width: 3840px){
