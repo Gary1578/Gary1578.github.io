@@ -1,11 +1,11 @@
 *{box-sizing: border-box;}
 
-@media all and (max-width: 340px)
+@media all and (max-width: 360px)
 {
     .content_wrapper{
         position:absolute;
-        width:390px;
-        height:100%;
+        width:360px;
+        height:800px;
         left:0px;
         top:0px;
         margin:0 auto;
