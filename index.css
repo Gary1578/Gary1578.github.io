@@ -25,8 +25,8 @@
             height:50px; 
             margin-top:20px;
             margin-left:20px;
-            border:5px solid #ffffff;
-            border-radius:2px;
+            border:2px solid #ffffff;
+            border-radius:5px;
             user-select:none;
         }
             #menu:hover{
@@ -38,7 +38,7 @@
                 display:block;
                 width:30px;
                 height:2px;
-                margin-left:10px;
+                margin-left:9px;
                 margin-top:8px;
                 background-color:#ffffff;
                 text-decoration: none;
