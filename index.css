@@ -1,6 +1,6 @@
 *{box-sizing: border-box;}
 
-@media all and (max-width: 768px)
+@media all and (max-width: 480px)
 {
     .content_wrapper{
         position:absolute;
