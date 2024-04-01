@@ -93,12 +93,11 @@
         h2{
             position:relative;
             margin:0 auto;
-            top:50px;
-            padding-top:40px;
+            top:30px;
             text-align:center;
             font-family:Georgia, Geneva, Tahoma, sans-serif;
             font-weight:bold;
-            font-size:1.7em;
+            font-size:1.9em;
             color: #ffffff;    
             user-select:none;
         }
