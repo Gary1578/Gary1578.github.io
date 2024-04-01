@@ -24,7 +24,7 @@
             width:35px;
             height:35px; 
             margin-top:20px;
-            margin-left:315px;
+            margin-left:90%;
             /*border:1px solid #ffffff;*/
             /*border-radius:5px;*/
             user-select:none;
@@ -166,7 +166,7 @@
             width:35px;
             height:35px; 
             margin-top:20px;
-            margin-left:375px;
+            margin-left:90%;
             /*border:1px solid #ffffff;*/
             /*border-radius:5px;*/
             user-select:none;
@@ -240,7 +240,7 @@
             text-align:center;
             font-family:Georgia, Geneva, Tahoma, sans-serif;
             font-weight:bold;
-            font-size:1.9em;
+            font-size:2.1em;
             color: #ffffff;    
             user-select:none;
         }
@@ -275,7 +275,7 @@
         .screen_bottom_split p{
             position:relative;
             width:95%;
-            top:40px;
+            top:-40px;
             margin:0 auto;
             height:30%;
             font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
