@@ -143,7 +143,7 @@
             text-align:center;
         }
 }
-@media all and (min-width: 361px) and (max-width: 480px){
+@media all and (min-width: 361px) and (max-width: 390px){
     .content_wrapper{
         position:absolute;
         width:100%;
@@ -166,7 +166,7 @@
             width:35px;
             height:35px; 
             margin-top:20px;
-            margin-left:400px;
+            margin-left:325px;
             border:1px solid #ffffff;
             /*border-radius:5px;*/
             user-select:none;
@@ -181,7 +181,7 @@
                 width:26px;
                 height:3px;
                 margin:0 auto;
-                margin-top:5px;
+                margin-top:6px;
                 border-radius:3px;
                 background-color:#ffffff;
                 text-decoration: none;
