@@ -166,7 +166,7 @@
             width:35px;
             height:35px; 
             margin-top:20px;
-            margin-left:325px;
+            margin-left:375px;
             border:1px solid #ffffff;
             /*border-radius:5px;*/
             user-select:none;
@@ -275,6 +275,7 @@
         .screen_bottom_split p{
             position:relative;
             width:95%;
+            top:40px;
             margin:0 auto;
             height:30%;
             font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
