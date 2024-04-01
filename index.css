@@ -93,7 +93,7 @@
         h2{
             position:relative;
             margin:0 auto;
-            top:90px;
+            top:50px;
             text-align:center;
             font-family:Georgia, Geneva, Tahoma, sans-serif;
             font-weight:bold;
@@ -130,8 +130,7 @@
         }
         .screen_bottom_split p{
             position:relative;
-            width:90%;
-            top:10px;
+            width:95%;
             margin:0 auto;
             height:30%;
             font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
