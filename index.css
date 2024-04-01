@@ -40,7 +40,7 @@
                 width:26px;
                 height:3px;
                 margin:0 auto;
-                margin-top:5px;
+                margin-top:6px;
                 border-radius:3px;
                 background-color:#ffffff;
                 text-decoration: none;
@@ -149,7 +149,7 @@
     .content_wrapper{
         position:absolute;
         width:100%;
-        height:768px;
+        height:820px;
         left:0px;
         top:0px;
         margin:0 auto;
