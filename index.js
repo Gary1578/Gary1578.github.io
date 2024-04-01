@@ -1,6 +1,14 @@
 $(document).ready(function(){
+    var menu_click = 0;
     $("#mobile_menu").bind("click", function(){
-        $("#mobile_menu").css("background-color", "black");
+        if(menu_click == 0){
+            $("#mobile_menu").css("background-color", "black");
+            menu_click++;
+        }
+        else{
+            $("#mobile_menu").css("background", "rgba(190,193,194,1)");
+            menu_click = 0;
+        }
     });
     $("#menu li").bind("click", function(){
         num = $("#menu li").index(this);
