@@ -143,7 +143,7 @@
             text-align:center;
         }
 }
-@media all and (min-width: 361px) and (max-width: 390px){
+@media all and (min-width: 361px) and (max-width: 420px){
     .content_wrapper{
         position:absolute;
         width:100%;
