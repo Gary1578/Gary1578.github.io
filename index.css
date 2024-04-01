@@ -1,6 +1,6 @@
 *{box-sizing: border-box;}
 
-@media all and (max-width: 480px)
+@media all and (max-width: 768px)
 {
     .content_wrapper{
         position:absolute;
@@ -93,7 +93,7 @@
         h2{
             position:relative;
             margin:0 auto;
-            top:50px;
+            top:90px;
             text-align:center;
             font-family:Georgia, Geneva, Tahoma, sans-serif;
             font-weight:bold;
@@ -141,7 +141,7 @@
             text-align:center;
         }
 }
-@media all and (min-width: 481px){
+@media all and (min-width: 769px){
     .content_wrapper{
         position:absolute;
         width:100%;
