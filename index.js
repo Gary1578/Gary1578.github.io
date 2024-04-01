@@ -2,11 +2,11 @@ $(document).ready(function(){
     var menu_click = 0;
     $("#mobile_menu").bind("click", function(){
         if(menu_click == 0){
-            $("#mobile_menu").css("background-color", "black");
+            $("#mobile_menu").css("background-color", "rgba(190,193,194,1)");
             menu_click++;
         }
         else{
-            $("#mobile_menu").css("background", "rgba(190,193,194,1)");
+            $("#mobile_menu").css("background", "none");
             menu_click = 0;
         }
     });
