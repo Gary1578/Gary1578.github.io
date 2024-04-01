@@ -1,11 +1,152 @@
 *{box-sizing: border-box;}
 
-@media all and (max-width: 480px)
+@media all and (max-width: 360px)
 {
     .content_wrapper{
         position:absolute;
         width:100%;
-        height:640px;
+        height:740px;
+        left:0px;
+        top:0px;
+        margin:0 auto;
+        padding:0 auto;
+    }
+        .screen_top_split{
+            position:relative;
+            width:100%;
+            height:60%;
+            top:0px;
+            background: linear-gradient(0deg, rgba(190,193,194,1) 0%, rgba(238,238,249,1) 36%, rgba(199,199,209,1) 100%);     
+            user-select: none;
+        }
+        #mobile_menu{
+            position:absolute;
+            width:35px;
+            height:35px; 
+            margin-top:20px;
+            margin-left:315px;
+            /*border:1px solid #ffffff;*/
+            /*border-radius:5px;*/
+            user-select:none;
+        }
+            #mobile_menu:hover{
+                cursor:pointer;
+                background-color:rgba(190,193,194,1);
+            }
+            #mobile_menu li{
+                position:relative;
+                display:block;
+                width:24px;
+                height:4px;
+                margin:0 auto;
+                margin-top:5px;
+                border-radius:3px;
+                background-color:#ffffff;
+                text-decoration: none;
+                user-select:none;
+            } 
+        #menu_options{
+            display:none;
+        }
+            #menu_option_list0{
+                display:none;
+            }
+            #menu_option_list1{
+                display:none;
+            }
+            #menu_option_list2{
+                display:none;
+            }
+        #git_hub_profile{
+            position:relative;
+            margin:0 auto;
+            width:100%;
+            height:50px;
+            top:10px;
+            color: #ffffff;
+            font-family:Tahoma, Georgia, Verdana, sans-serif;
+            text-align:center;
+            user-select:none;
+        }
+            #git_hub_profile a{
+                text-decoration: none;
+                user-select:none;
+                text-align:center;
+                color:#ffffff;
+            }
+        #img_placeholder{
+            position:relative;
+            margin:0 auto;
+            width:180px;
+            height:170px;
+            top:50px;
+            border: 2px solid #ffffff;
+            border-radius:50%;
+            overflow: hidden;
+            user-select: none;
+        }
+            #img_placeholder img{
+                width:180px;
+                height:170px;
+                user-select: none;
+            }
+        h2{
+            position:relative;
+            margin:0 auto;
+            top:90px;
+            text-align:center;
+            font-family:Georgia, Geneva, Tahoma, sans-serif;
+            font-weight:bold;
+            font-size:1.9em;
+            color: #ffffff;    
+            user-select:none;
+        }
+    .screen_bottom_split{
+        position:relative;
+        margin:0 auto;
+        width:100%;
+        height:40%;
+        top:-1px;
+        background:rgba(190,193,194,1);
+        user-select: none;
+    }
+    #menu{
+        display:none;
+    }
+        #menu li{
+            display: none; 
+        }   
+    #menu_options{
+        display:none;
+        
+    }
+        #menu_option_list0{
+            display:none;
+        }
+        #menu_option_list1{
+            display:none;
+        }
+        #menu_option_list2{
+            display:none;
+        }
+        .screen_bottom_split p{
+            position:relative;
+            width:95%;
+            margin:0 auto;
+            height:30%;
+            font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            font-weight: bold;
+            font-size: 1.1em;
+            color: floralwhite;
+            user-select:none;
+            text-align:center;
+        }
+}
+@media all and (min-width: 361px) and (max-width: 480px){
+    .content_wrapper{
+        position:absolute;
+        width:100%;
+        height:740px;
         left:0px;
         top:0px;
         margin:0 auto;
@@ -141,6 +282,7 @@
             user-select:none;
             text-align:center;
         }
+
 }
 @media all and (min-width: 769px){
     .content_wrapper{
