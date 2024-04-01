@@ -69,6 +69,7 @@
             user-select:none;
         }
             #git_hub_profile a{
+                font-size:1em;
                 text-decoration: none;
                 user-select:none;
                 text-align:center;
@@ -146,7 +147,7 @@
     .content_wrapper{
         position:absolute;
         width:100%;
-        height:740px;
+        height:853px;
         left:0px;
         top:0px;
         margin:0 auto;
@@ -162,10 +163,10 @@
         }
         #mobile_menu{
             position:absolute;
-            width:30px;
-            height:30px; 
+            width:35px;
+            height:35px; 
             margin-top:20px;
-            margin-left:310px;
+            margin-left:435px;
             /*border:1px solid #ffffff;*/
             /*border-radius:5px;*/
             user-select:none;
@@ -177,7 +178,7 @@
             #mobile_menu li{
                 position:relative;
                 display:block;
-                width:18px;
+                width:26px;
                 height:3px;
                 margin:0 auto;
                 margin-top:5px;
@@ -210,6 +211,7 @@
             user-select:none;
         }
             #git_hub_profile a{
+                font-size: 1.2em;
                 text-decoration: none;
                 user-select:none;
                 text-align:center;
@@ -277,7 +279,7 @@
             height:30%;
             font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
             font-weight: bold;
-            font-size: 1.1em;
+            font-size: 1.3em;
             color: floralwhite;
             user-select:none;
             text-align:center;
