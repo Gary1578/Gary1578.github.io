@@ -1,4 +1,7 @@
 $(document).ready(function(){
+    $("#mobile_menu").bind("click", function(){
+        $("#mobile_menu").css("background-color", "black");
+    });
     $("#menu li").bind("click", function(){
         num = $("#menu li").index(this);
         switch(num){
